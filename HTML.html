@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>What is HTML</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="row">
+        <a class="col btn btn-primary" href="index.html" role="button"> &lt; Previous </a>
+        <a class="col btn btn-primary" href="index.html" role="button"> Home </a>
+        <a class="col btn btn-primary" href="CSS.html" role="button"> Next &gt; </a>
+    </div>
+    <div class="container card border-dark my-3">
+        <h1 class="row card-header">What is HTML?</h1>
+        <div class="row justify-content-around">
+            <div class="col-auto" style="padding: 16px;width: 150px;">
+                <img src="img_html.jpg" alt="HTML image" style="width: 110px;">
+            </div>
+            <div class="col-8 card-body" style="padding: 20px;">
+                <p class="card-text">HTML (<b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage) is used to lay out
+                    the structure of a webpage.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container card-group border-dark my-3">
+        <div class="row">
+            <div class="col-4 card">
+                <h3 class="card-header">HTML Example</h3>
+                <div class="card-body">
+                    <img src="html_code.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4 card">
+                <h3 class="card-header">Example Explained</h3>
+                <div class="card-body">
+                    <p class="card-text">HTML elements are the building blocks of HTML pages.</p>
+                    <ul class="card-text">
+                        <li>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines this document to be HTML5</li>
+                        <li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li>
+                        <li>The <code>lang</code> attribute&nbsp; defines the language of the document</li>
+                        <li>The <code>&lt;head&gt;</code> element is a container for metadata which typically define the
+                            title, character set, styles, scripts, and other meta information. </li>
+                        <li>The <code>&lt;meta&gt;</code> element contains meta information about the document</li>
+                        <li>The <code>charset</code> attribure defines the character set used in the document</li>
+                        <li>The <code>&lt;title&gt;</code> element specifies a title for the document</li>
+                        <li>The <code>&lt;body&gt;</code> element contains the visible page content </li>
+                        <li>The <code>&lt;h1&gt;</code> element defines a large heading</li>
+                        <li>The <code>&lt;p&gt;</code> element defines a paragraph</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4 card">
+                <h3 class="card-header">Show in browser</h3>
+                <img src="img_sample.jpg" alt="HTML image">
+            </div>
+        </div>
+    </div>
+    <div class="container card my-3">
+        <h2 class="row card-header">HTML Document Structure</h2>
+        <p class="card-subheader text-center">Below is a visualization of an HTML document (an HTML Page):</p>
+
+        <div style="width:99%;border:1px solid grey;padding:3px;margin:0;background-color:#ddd">&lt;html&gt;
+            <div style="width:90%;border:1px solid grey;padding:3px;margin:20px">&lt;head&gt;
+                <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;title&gt;Page
+                    title&lt;/title&gt;
+                </div>
+                &lt;/head&gt;
+            </div>
+            <div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#ddd">&lt;body&gt;
+                <div style="width:90%;border:1px solid grey;padding:3px;margin:20px;background-color:#fff">
+                    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;h1&gt;This is a
+                        heading&lt;/h1&gt;</div>
+                    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is a
+                        paragraph.&lt;/p&gt;</div>
+                    <div style="width:90%;border:1px solid grey;padding:5px;margin:20px">&lt;p&gt;This is another
+                        paragraph.&lt;/p&gt;</div>
+                </div>
+                &lt;/body&gt;
+            </div>
+            &lt;/html&gt;
+        </div>
+    </div>
+    <hr>
+    <div class="container card my-3">
+        <h2 class="row card-header">Common HTML tags</h2>
+        <div class="row">
+            <div class="col-auto card-body text-dark" style="padding: 20px;">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col-4">Tag and attribures</th>
+                            <th scope="col-8">Meaning and Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><span>&lt;</span>html<span>&gt;</span><span>&lt;</span>/html<span>&gt;</span></li>
+                                    <li><span>&lt;</span>head<span>&gt;</span><span>&lt;</span>/head<span>&gt;</span></li>
+                                    <li><span>&lt;</span>title<span>&gt;</span><span>&lt;</span>/title<span>&gt;</span></li>
+                                    <li><span>&lt;</span>body<span>&gt;</span><span>&lt;</span>/body<span>&gt;</span></li>
+                                    <li><span>&lt;</span>h1<span>&gt;</span><span>&lt;</span>/h1<span>&gt;</span></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>contents of website</li>
+                                    <li>metadata about the page that is useful for the browser when displaying the page</li>
+                                    <li>title of the page</li>
+                                    <li>body of the page</li>
+                                    <li>header (h1 is the largest header, h6 is the smallest header)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><span>&lt;</span>ul<span>&gt;</span><span>&lt;</span>/ul<span>&gt;</span></li>
+                                    <li><span>&lt;</span>ol<span>&gt;</span><span>&lt;</span>/ol<span>&gt;</span></li>
+                                    <li><span>&lt;</span>li<span>&gt;</span><span>&lt;</span>/li<span>&gt;</span></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>unordered list</li>
+                                    <li>ordered list</li>
+                                    <li>list item (must be inside either &lt;ul&gt;&lt;/ul&gt; or &lt;ol&gt;&lt;/ol&gt;)
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>&lt;</span>img src="..." height="200" width="300"<span>&gt;</span></td>
+
+                            <td>
+                                <p> <b>NOTE:</b> This is a single tag without an end tag.</p>
+                                <ul>
+                                    <li>
+                                        image stored at src attribute, whcih can also be a URL
+                                    </li>
+                                    <li>
+                                        <p>both height and width are optional (if one is omitted, the browser will
+                                            auto-size the image), and can also take a percentage: height=50% to
+                                            automatically scale the image to a certain portion of the page</p>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><span>&lt;</span>table<span>&gt;</span><span>&lt;</span>/table<span>&gt;</span>
+                                    </li>
+                                    <li><span>&lt;</span>th<span>&gt;</span><span>&lt;</span>/th<span>&gt;</span></li>
+                                    <li><span>&lt;</span>tr<span>&gt;</span><span>&lt;</span>/tr<span>&gt;</span></li>
+                                    <li><span>&lt;</span>td<span>&gt;</span><span>&lt;</span>/td<span>&gt;</span></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>table</li>
+                                    <li>table header</li>
+                                    <li>table row</li>
+                                    <li>table data (cell)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li><span>&lt;</span>form<span>&gt;</span><span>&lt;</span>/form<span>&gt;</span>
+                                    </li>
+                                    <li><span>&lt;</span>input type="text" placeholder="Full Name"
+                                        name="name"<span>&gt;</span></li>
+                                    <li><span>&lt;</span>button<span>&gt;</span><span>&lt;</span>/button<span>&gt;</span>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>form that can be filled out and submitted by the user</li>
+                                    <li>type indicates the type of data<br>placeholder is the greyed-out text shown
+                                        before the field is filled<br>name is an identifier for the input field </li>
+                                    <li>button used to submit form</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
